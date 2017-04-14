@@ -26,17 +26,14 @@
       <div class="breadcrumbs">
         <h1> СРЕДСТВА ДЛЯ УХОДА  </h1>
         <ul>
-          <li> <a href="#"> Главная </a></li>
-          <li> <a href="#"> Магазин </a></li>
-          <li> <a href="#"> СРЕДСТВА ДЛЯ УХОДА </a></li>
+          <li> <a name="#"> Главная </a></li>
+          <li> <a name="#"> Магазин </a></li>
+          <li> СРЕДСТВА ДЛЯ УХОДА</li>
         </ul>
       </div>
-      <div class="suppliers">
+      <aside class="suppliers">
         <h2> ПРОИЗВОДИТЕЛИ: </h2>
-        <br>
-      <!-- do i need to put form for supplier together with form for groups of products? -->
-      <!-- where i need to take "action"? -->
-        <form action="#" method="post">
+        <form action="https://echo.htmlacademy.ru" method="get">
           <label>
       	    <input type="checkbox" checked name="supplier1"> BAXTER OF CALIFORNIA 
           </label>
@@ -56,136 +53,144 @@
       	    <input type="checkbox" checked name="supplier6"> AMERICAN CREW 
           </label>
         </form>
-      </div>
-      <div class="products-group">
         <h2> ГРУППЫ ТОВАРОВ: </h2>
         <br>
-        
-        <label>
-      	  <input type="checkbox" name="products-group1"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ 
-        </label>
-        <label>
-      	  <input type="checkbox" checked name="products-group2">СРЕДСТВА ДЛЯ УХОДА 
-        </label>
-        <label>
-      	  <input type="checkbox" name="products-group3"> АКСЕССУАРЫ
-      	</label>
-      	<br>
-        <button class="btn options" type="button"> ПОКАЗАТЬ </button>
-      </div>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <label>
+      	    <input type="checkbox" name="products-group1"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ 
+          </label>
+          <label>
+      	    <input type="checkbox" checked name="products-group2">СРЕДСТВА ДЛЯ УХОДА 
+          </label>
+          <label>
+      	    <input type="checkbox" name="products-group3"> АКСЕССУАРЫ
+      	  </label>
+      	</form>
+        <button class="btn options" type="submit"> ПОКАЗАТЬ </button>
+      </aside>
       <!-- products in <article> -->
       <article class="catalog-list">
         <article class="catalog-item">
           <a href="#">
       	    <img src="#" width="" height="" alt="Набор_для_путешествий_BAXTER_OF_CALIFORNIA">
-      	    <p>Набор для путешествий <br>"BAXTER OF CALIFORNIA"</p>
+      	    <h1>Набор для путешествий "BAXTER OF CALIFORNIA"</h1>
       	  </a>
-          <table border="1">
+          <!-- <table border="1">
             <tr>
               <td>2 900 руб </td>
               <td>
                 <a class="btn-buy" href="#">Купить </a>
               </td>
             </tr>
-          </table>
+          </table> -->
         </article>
         <article class="catalog-item">
           <a href="#">
       	    <img src="#" width="" height="" alt="Увлажняющий_кондиционер_BAXTER_OF_CALIFORNIA">
-      	    <p>Увлажняющий кондиционер <br>"BAXTER OF CALIFORNIA"</p>
+      	    <h1>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</h1>
       	  </a>
-          <table border="1">
+          <!-- <table border="1">
             <tr>
               <td>750 руб </td>
               <td>
                 <a class="btn-buy" href="#">Купить </a>
               </td>
             </tr>
-          </table>
+          </table> -->
         </article>
         <article class="catalog-item">
           <a href="#">
       	    <img src="#" width="" height="" alt="Гель_для_волос_SUAVECITO">
-      	    <p>Гель для волос <br> "SUAVECITO"</p>
+      	    <h1>Гель для волос "SUAVECITO"</h1>
       	  </a>
-          <table border="1">
+          <!-- <table border="1">
             <tr>
               <td>290 руб </td>
               <td>
                 <a class="btn-buy" href="#">Купить </a>
               </td>
             </tr>
-          </table>
+          </table> -->
         </article>
         <article class="catalog-item">
           <a href="#">
       	    <img src="#" width="" height="" alt="Гель_для_укладки_волос_AMERICAN_CREW">
-      	    <p>Гель для укладки волос <br> "AMERICAN CREW"</p>
+      	    <h1>Гель для укладки волос "AMERICAN CREW"</h1>
       	  </a>
-          <table border="1">
+          <!-- <table border="1">
             <tr>
               <td>500 руб </td>
               <td>
                 <a class="btn-buy" href="#">Купить </a>
               </td>
             </tr>
-          </table>
+          </table> -->
         </article>
         <article class="catalog-item">
           <a href="#">
       	    <img src="#" width="" height="" alt="Гель_для_волос_AMERICAN_CREW">
-      	    <p>Гель для волос <br> "AMERICAN CREW"</p>
+      	    <h1>Гель для волос "AMERICAN CREW"</h1>
       	  </a>
-          <table border="1">
+          <!-- <table border="1">
             <tr>
               <td>300 руб </td>
               <td>
                 <a class="btn-buy" href="#">Купить </a>
               </td>
             </tr>
-          </table>
+          </table> -->
         </article>
          <article class="catalog-item">
           <a href="#">
       	    <img src="#" width="" height="" alt="Набор_для_бритья_BAXTER_OF_CALIFORNIA">
-      	    <p>Набор для бритья<br>"BAXTER OF CALIFORNIA"</p>
+      	    <h1>Набор для бритья "BAXTER OF CALIFORNIA"</h1>
       	  </a>
-          <table border="1">
+          <!-- <table border="1">
             <tr>
               <td>3 900 руб </td>
               <td>
                 <a class="btn-buy" href="#">Купить </a>
               </td>
             </tr>
-          </table>
+          </table> -->
         </article>
       </article>
-      <div class="btn-catalog-page">
+      <div class="catalog-page">
+        <ul>
+          <li>
         <button class="btn catalog-page"> 1 </button>
+          </li>
+          <li>
         <button class="btn catalog-page" disabled> 2 </button>
+          </li>
+          <li>
         <button class="btn catalog-page"> 3 </button>
+          </li>
+          <li>
         <button class="btn catalog-page"> 4 </button>
+          </li>
+        </ul>
       </div>
     </main>
       <!-- footer -->
       <footer class="main-footer">
         <div class="container">
           <section class="footer-contacts">
-            Барбершоп «Бородинский»<br>
+            <p>Барбершоп «Бородинский»<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
             <a href="#">Как нас найти?</a><br>
-            Телефон: +7 (812) 666-02-66
+            Телефон: +7 (812) 666-02-66</p>
            </section>
-           <section class="footer-social">
+           <span class="footer-social">
              <p>Давайте дружить!</p>
              <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
              <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
              <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-           </section>
-           <section class="footer-copyright">
+           </span>
+           <span class="footer-copyright">
              <p>Разработано:</p>
              <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-           </section>
+           </span>
         </div>
     </footer>
     </main>
