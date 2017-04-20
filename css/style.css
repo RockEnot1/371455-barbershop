@@ -1,0 +1,188 @@
+
+.main-navigation a{
+  font-size: 16px;
+  font-family: "PTSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login{
+  font-size: 16px;
+  font-family: "PTSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.breadcrumbs h1{
+  font-size: 30px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 42px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.breadcrumbs a{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.suppliers h2{
+  font-size: 24px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.suppliers label{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+}
+
+button[type="submit"]{
+  font-size: 13px;
+  font-family: "PTSans";
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: center;
+}
+
+.catalog-item h1{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+}
+.catalog-item span{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+}
+
+.catalog-item a{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+}
+
+.container p{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.714;
+  text-align: left;
+  text-transform: uppercase;
+}
+.container a{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.714;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.item-description span{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+}
+
+.gray{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(174, 174, 174);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: right;
+}
+
+.item-description p{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+}
+
+.buy-btn span{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+}
+.buy-btn a{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  }
+
+.item-description h2{
+  font-size: 24px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: left;
+  }
+
+  .item-description li{
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+}
+
